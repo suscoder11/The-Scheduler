@@ -30,3 +30,6 @@ void LinkedList::printList() {
         curr = curr->next;
     }
 }
+
+
+//kjkjkj
