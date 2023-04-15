@@ -15,7 +15,7 @@ int ProFCFS::gettimer() const
 bool ProFCFS::ScheduleAlgo()
 {}
 
-int ProFCFS::forkingrequest(int AT)
+void ProFCFS::forkingrequest(int AT, int RT)
 {}
 
 void ProFCFS::inctimer()

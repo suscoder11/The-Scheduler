@@ -16,7 +16,7 @@ public:
 
 	virtual bool ScheduleAlgo() override;
 
-	int forkingrequest(int AT);
+	void  forkingrequest(int AT, int RT);
 
 	virtual void inctimer() override;
 	virtual void dectimer() override;
