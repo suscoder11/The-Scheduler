@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CPP",
+    "\\Headers"
   ],
-  "SelectedNode": "\\C:\\Users\\LAPTOP\\Source\\Repos\\suscoder11\\The-Scheduler",
+  "SelectedNode": "\\Headers\\processor.h",
   "PreviewInSolutionExplorer": false
 }

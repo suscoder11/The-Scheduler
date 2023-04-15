@@ -10,7 +10,7 @@ protected:
 	Scheduler* pS;
 	int timer; // a sum for all CTs in the processor's rdy list
 	bool flag; // a flag to determine whether the processor is IDLE(=1) or BUSY(=0)
-	int RUNLIST[1]; 
+	Process RUNLIST[1]; 
 
 public:
 	processor(Scheduler* p) { pS = p };
