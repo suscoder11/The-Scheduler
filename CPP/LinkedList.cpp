@@ -31,6 +31,3 @@ void LinkedList::printList() {
     }
 }
 
-
-//kjkjkj
-//uhjuyuy
