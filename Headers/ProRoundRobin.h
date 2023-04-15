@@ -4,7 +4,9 @@ class ProRoundRobin : public processor
 {
 private:
 	Queue Plist;
-	int RTF; //a thershold to be used in migration functioanlity
+
+	int RTF; //a thershold to be used in migration functionality
+
 
 public:
 
