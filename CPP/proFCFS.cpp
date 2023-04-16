@@ -4,6 +4,8 @@
 ProFCFS::ProFCFS(scheduler* p) :processor(p)
 {
 	timer = 0;
+
+	RUNLIST = nullptr;
 }
 
 ProFCFS::~ProFCFS()
@@ -18,9 +20,16 @@ bool ProFCFS::ScheduleAlgo()
 void ProFCFS::forkingrequest(int AT, int RT)
 {}
 
-void ProFCFS::inctimer()
+void ProFCFS::inctimer(int time)
 {}
 
-void ProFCFS::dectimer()
+void ProFCFS::dectimer(int time)
 {}
+
+void ProFCFS::add_process(Process* p)
+{
+	inctimer(p->getCpuTime());
+
+
+}
 

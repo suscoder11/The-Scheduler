@@ -17,8 +17,10 @@ public:
 	virtual  int gettimer() const override;
 	virtual bool ScheduleAlgo() override;
 
-	virtual void inctimer() override;
-	virtual void dectimer() override;
+	virtual void inctimer(int time) override;
+	virtual void dectimer(int time) override;
+
+	virtual void add_process(Process* p) override
 
 
 
