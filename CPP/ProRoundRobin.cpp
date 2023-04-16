@@ -5,6 +5,7 @@
 ProRoundRobin::ProRoundRobin(scheduler* p) :processor(p)
 {
 	timer = 0;
+	RUNLIST = nullptr;
 }
 
 
@@ -19,9 +20,13 @@ int ProRoundRobin::gettimer() const
 bool ProRoundRobin::ScheduleAlgo()
 {}
 
-void ProRoundRobin::inctimer()
-{}
+void ProRoundRobin::inctimer(int timestep)
+{
 
-void ProRoundRobin::dectimer()
+	inctimer(p->getCpuTime());
+
+}
+
+void ProRoundRobin::dectimer(int timestep)
 {}
 
